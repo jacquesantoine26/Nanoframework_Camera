@@ -3,3 +3,5 @@ The driver is fully C#, translated and adapted from Micropython code https://git
 A critical method was missing from the python code so I had to fish it out and translate it from the original Arducam C/C++ driver.
 Technically, it uses one SPI for the SD reader and a second SPI for the cam which does not require I2C. One picture takes ~3 seconds.
 I have been waiting for a long time to be able to take a picture with Nanoframework 😀 
+----
+Edit: works also with Arducam Mega 5MP.
